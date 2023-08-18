@@ -13,7 +13,7 @@ Dentre os itens utilizados neste pacote podemos destacar:
 4º - Altere a url do projeto na source/Config/Config.php linha 11 OBS: caso tenha colocado o projeto em outra pasta<br/>
 
 ## Pré Requisitos
-[PHP 7.4](https://www.php.net/downloads.php)
+[PHP 8.2](https://www.php.net/downloads.php)
 
 ### Licenças
 open-source [MIT](http://opensource.org/licenses/MIT)<br/>

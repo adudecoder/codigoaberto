@@ -1,0 +1,35 @@
+{
+  "name": "victormartins/authphp",
+  "description": "Uma simples peça de login para o seu quebra-cabeças, Código Aberto",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Victor Martins",
+      "email": "vitor.martiins74@gmail.com",
+      "role": "Developer",
+      "homepage": "https://fsphp.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Helpers.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "coffeecode/router": "^2.0",
+    "coffeecode/datalayer": "^2.0",
+    "coffeecode/optimizer": "^2.1",
+    "phpmailer/phpmailer": "^6.8",
+    "league/oauth2-facebook": "^2.2",
+    "league/oauth2-google": "^4.0",
+    "codephix/plates": "^3.0",
+    "matthiasmullie/path-converter": "^1.1",
+    "matthiasmullie/minify": "^1.3"
+  }
+}
